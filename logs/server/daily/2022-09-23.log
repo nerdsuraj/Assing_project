@@ -1,0 +1,52 @@
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-23T02:52:18.158Z"}
+info: Connected to the database. {"timestamp":"2022-09-23T02:52:18.198Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read property 'path' of undefined
+    at _callee$ (C:\Users\soora\Desktop\test\awesome-project\src\controllers\/user.controller.js:14:68)
+    at tryCatch (C:\Users\soora\Desktop\test\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\soora\Desktop\test\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\soora\Desktop\test\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\soora\Desktop\test\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\soora\Desktop\test\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\soora\Desktop\test\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\Users\soora\Desktop\test\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at newUser (C:\Users\soora\Desktop\test\awesome-project\src\controllers\/user.controller.js:5:21)
+    at Layer.handle [as handle_request] (C:\Users\soora\Desktop\test\awesome-project\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\soora\Desktop\test\awesome-project\node_modules\express\lib\router\route.js:144:13)
+    at multerMiddleware (C:\Users\soora\Desktop\test\awesome-project\node_modules\multer\lib\make-middleware.js:13:41)
+    at Layer.handle [as handle_request] (C:\Users\soora\Desktop\test\awesome-project\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\soora\Desktop\test\awesome-project\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\soora\Desktop\test\awesome-project\node_modules\express\lib\router\route.js:114:3) 
+    url - /api/v1/users/student 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-09-23T03:19:11.995Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-23T03:20:24.770Z"}
+info: Connected to the database. {"timestamp":"2022-09-23T03:20:24.817Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-23T10:20:44.878Z"}
+info: Connected to the database. {"timestamp":"2022-09-23T10:20:44.938Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read property 'filename' of undefined
+    at _callee$ (C:\Users\soora\Desktop\test\awesome-project\src\controllers\/user.controller.js:14:68)
+    at tryCatch (C:\Users\soora\Desktop\test\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\soora\Desktop\test\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\soora\Desktop\test\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\soora\Desktop\test\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\soora\Desktop\test\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\soora\Desktop\test\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\Users\soora\Desktop\test\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at newUser (C:\Users\soora\Desktop\test\awesome-project\src\controllers\/user.controller.js:5:21)
+    at Layer.handle [as handle_request] (C:\Users\soora\Desktop\test\awesome-project\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\soora\Desktop\test\awesome-project\node_modules\express\lib\router\route.js:144:13)
+    at multerMiddleware (C:\Users\soora\Desktop\test\awesome-project\node_modules\multer\lib\make-middleware.js:13:41)
+    at Layer.handle [as handle_request] (C:\Users\soora\Desktop\test\awesome-project\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\soora\Desktop\test\awesome-project\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\soora\Desktop\test\awesome-project\node_modules\express\lib\router\route.js:114:3) 
+    url - /api/v1/users/student 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-09-23T10:21:33.429Z"}

@@ -1,0 +1,36 @@
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-10-05T17:43:25.510Z"}
+info: Connected to the database. {"timestamp":"2022-10-05T17:43:25.591Z"}
+error: 
+    status - 500 
+    message - Error: "dob" must be a valid email 
+    url - /api/v1/people 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-10-05T17:46:52.168Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-10-05T17:47:39.262Z"}
+info: Connected to the database. {"timestamp":"2022-10-05T17:47:39.297Z"}
+error: 
+    status - 500 
+    message - ReferenceError: UserService is not defined
+    at _callee$ (C:\Users\soora\Desktop\Basic_project_nodejs\awesome-project\src\controllers\/assi.controller.js:3:24)
+    at tryCatch (C:\Users\soora\Desktop\Basic_project_nodejs\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\soora\Desktop\Basic_project_nodejs\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\soora\Desktop\Basic_project_nodejs\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\soora\Desktop\Basic_project_nodejs\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\soora\Desktop\Basic_project_nodejs\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\soora\Desktop\Basic_project_nodejs\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\Users\soora\Desktop\Basic_project_nodejs\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at newUser (C:\Users\soora\Desktop\Basic_project_nodejs\awesome-project\src\controllers\/assi.controller.js:3:21)
+    at Layer.handle [as handle_request] (C:\Users\soora\Desktop\Basic_project_nodejs\awesome-project\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\soora\Desktop\Basic_project_nodejs\awesome-project\node_modules\express\lib\router\route.js:144:13)
+    at newPeopleValidator (C:\Users\soora\Desktop\Basic_project_nodejs\awesome-project\src\validators\/assin.validator.js:16:5)
+    at Layer.handle [as handle_request] (C:\Users\soora\Desktop\Basic_project_nodejs\awesome-project\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\soora\Desktop\Basic_project_nodejs\awesome-project\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\soora\Desktop\Basic_project_nodejs\awesome-project\node_modules\express\lib\router\route.js:114:3) 
+    url - /api/v1/people 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-10-05T17:47:44.189Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-10-05T17:50:29.811Z"}
+info: Connected to the database. {"timestamp":"2022-10-05T17:50:29.859Z"}

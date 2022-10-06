@@ -1,0 +1,50 @@
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-10-05T18:39:03.408Z"}
+info: Connected to the database. {"timestamp":"2022-10-05T18:39:03.469Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-10-05T18:40:07.637Z"}
+info: Connected to the database. {"timestamp":"2022-10-05T18:40:07.696Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-10-05T18:40:58.196Z"}
+info: Connected to the database. {"timestamp":"2022-10-05T18:40:58.249Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-10-05T18:41:11.096Z"}
+info: Connected to the database. {"timestamp":"2022-10-05T18:41:11.150Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-10-05T18:42:00.175Z"}
+info: Connected to the database. {"timestamp":"2022-10-05T18:42:00.248Z"}
+error: 
+    status - 500 
+    message - ReferenceError: UserService is not defined
+    at _callee3$ (C:\Users\soora\Desktop\Basic_project_nodejs\awesome-project\src\controllers\/assi.controller.js:30:31)
+    at tryCatch (C:\Users\soora\Desktop\Basic_project_nodejs\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\soora\Desktop\Basic_project_nodejs\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\soora\Desktop\Basic_project_nodejs\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\soora\Desktop\Basic_project_nodejs\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\soora\Desktop\Basic_project_nodejs\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\soora\Desktop\Basic_project_nodejs\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\Users\soora\Desktop\Basic_project_nodejs\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at updatePeople (C:\Users\soora\Desktop\Basic_project_nodejs\awesome-project\src\controllers\/assi.controller.js:30:28)
+    at Layer.handle [as handle_request] (C:\Users\soora\Desktop\Basic_project_nodejs\awesome-project\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\soora\Desktop\Basic_project_nodejs\awesome-project\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\soora\Desktop\Basic_project_nodejs\awesome-project\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\soora\Desktop\Basic_project_nodejs\awesome-project\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\soora\Desktop\Basic_project_nodejs\awesome-project\node_modules\express\lib\router\index.js:284:15
+    at param (C:\Users\soora\Desktop\Basic_project_nodejs\awesome-project\node_modules\express\lib\router\index.js:365:14) 
+    url - /api/v1/people/633dcd3f2f2d602438cdaab5 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-10-05T18:42:34.959Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-10-05T18:43:10.699Z"}
+info: Connected to the database. {"timestamp":"2022-10-05T18:43:10.746Z"}
+error: 
+    status - 500 
+    message - Error: Cast to undefined failed for value undefined at path "undefined"
+    at CastError.<anonymous> (C:\Users\soora\Desktop\Basic_project_nodejs\awesome-project\node_modules\core-js\internals\wrap-error-constructor-with-cause.js:37:62)
+    at new Error (C:\Users\soora\Desktop\Basic_project_nodejs\awesome-project\node_modules\core-js\modules\es.error.cause.js:28:43)
+    at new MongooseError (C:\Users\soora\Desktop\Basic_project_nodejs\awesome-project\node_modules\mongoose\lib\error\mongooseError.js:7:1)
+    at new CastError (C:\Users\soora\Desktop\Basic_project_nodejs\awesome-project\node_modules\mongoose\lib\error\cast.js:31:7)
+    at model.Query.exec (C:\Users\soora\Desktop\Basic_project_nodejs\awesome-project\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (C:\Users\soora\Desktop\Basic_project_nodejs\awesome-project\node_modules\mongoose\lib\query.js:4592:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5) 
+    url - /api/v1/people/undefined 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-10-06T03:27:00.936Z"}

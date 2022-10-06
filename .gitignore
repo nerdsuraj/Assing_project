@@ -1,0 +1,5 @@
+/.babelrc
+/.env
+/.eslintrc
+/.prettierrc
+/node_modules

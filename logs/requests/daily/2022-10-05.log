@@ -1,0 +1,18 @@
+info: ::1 - - [05/Oct/2022:17:46:52 +0000] "POST /api/v1/people HTTP/1.1" 500 64 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [05/Oct/2022:17:47:44 +0000] "POST /api/v1/people HTTP/1.1" 500 61 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [05/Oct/2022:17:50:34 +0000] "POST /api/v1/people HTTP/1.1" 201 204 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [05/Oct/2022:17:51:33 +0000] "POST /api/v1/people HTTP/1.1" 201 205 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [05/Oct/2022:17:51:47 +0000] "GET /api/v1/people HTTP/1.1" 200 346 "-" "PostmanRuntime/7.29.2"
+
+info: ::1 - - [05/Oct/2022:18:11:07 +0000] "POST /api/v1/people HTTP/1.1" 201 207 "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+
+info: ::1 - - [05/Oct/2022:18:23:20 +0000] "GET /api/v1/people HTTP/1.1" 200 489 "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+
+info: ::1 - - [05/Oct/2022:18:26:48 +0000] "GET /api/v1/people HTTP/1.1" 304 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+
+info: ::1 - - [05/Oct/2022:18:29:19 +0000] "GET /api/v1/people HTTP/1.1" 304 - "http://localhost:4200/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+

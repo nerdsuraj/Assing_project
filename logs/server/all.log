@@ -1,0 +1,688 @@
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-22T11:36:48.712Z"}
+info: Connected to the database. {"timestamp":"2022-06-22T11:36:51.697Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-22T11:50:38.180Z"}
+info: Connected to the database. {"timestamp":"2022-06-22T11:50:41.116Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-22T11:55:44.768Z"}
+info: Connected to the database. {"timestamp":"2022-06-22T11:55:47.666Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-22T11:56:42.964Z"}
+info: Connected to the database. {"timestamp":"2022-06-22T11:56:45.751Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-22T12:02:01.489Z"}
+info: Connected to the database. {"timestamp":"2022-06-22T12:02:01.509Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-22T12:15:41.137Z"}
+info: Connected to the database. {"timestamp":"2022-06-22T12:15:41.174Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-23T03:02:45.470Z"}
+info: Connected to the database. {"timestamp":"2022-06-23T03:02:45.529Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-23T07:04:05.568Z"}
+info: Connected to the database. {"timestamp":"2022-06-23T07:04:05.612Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-23T07:04:36.763Z"}
+info: Connected to the database. {"timestamp":"2022-06-23T07:04:36.815Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-23T07:04:55.522Z"}
+info: Connected to the database. {"timestamp":"2022-06-23T07:04:55.589Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-23T07:27:13.589Z"}
+info: Connected to the database. {"timestamp":"2022-06-23T07:27:13.663Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-23T07:45:20.988Z"}
+info: Connected to the database. {"timestamp":"2022-06-23T07:45:21.033Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-23T07:48:16.061Z"}
+info: Connected to the database. {"timestamp":"2022-06-23T07:48:16.109Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-23T09:26:39.580Z"}
+info: Connected to the database. {"timestamp":"2022-06-23T09:26:39.612Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-06-24T03:03:37.805Z"}
+info: Connected to the database. {"timestamp":"2022-06-24T03:03:37.854Z"}
+error: 
+    status - 500 
+    message - Error: Cast to undefined failed for value undefined at path "undefined"
+    at CastError.<anonymous> (C:\Users\soora\Desktop\test\awesome-project\node_modules\core-js\internals\wrap-error-constructor-with-cause.js:37:62)
+    at new Error (C:\Users\soora\Desktop\test\awesome-project\node_modules\core-js\modules\es.error.cause.js:28:43)
+    at new MongooseError (C:\Users\soora\Desktop\test\awesome-project\node_modules\mongoose\lib\error\mongooseError.js:7:1)
+    at new CastError (C:\Users\soora\Desktop\test\awesome-project\node_modules\mongoose\lib\error\cast.js:31:7)
+    at model.Query.exec (C:\Users\soora\Desktop\test\awesome-project\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (C:\Users\soora\Desktop\test\awesome-project\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5) 
+    url - /api/v1/users/newuser 
+    method - PUT 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-06-24T03:10:28.427Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-16T06:08:06.810Z"}
+info: Connected to the database. {"timestamp":"2022-09-16T06:08:06.832Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-16T06:13:05.755Z"}
+info: Connected to the database. {"timestamp":"2022-09-16T06:13:05.777Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-16T06:16:46.822Z"}
+info: Connected to the database. {"timestamp":"2022-09-16T06:16:46.874Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-16T07:00:24.235Z"}
+info: Connected to the database. {"timestamp":"2022-09-16T07:00:24.291Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-16T07:09:22.597Z"}
+info: Connected to the database. {"timestamp":"2022-09-16T07:09:22.629Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-16T07:10:13.779Z"}
+info: Connected to the database. {"timestamp":"2022-09-16T07:10:13.805Z"}
+error: 
+    status - 500 
+    message - Error: student validation failed
+    at ValidationError.<anonymous> (C:\Users\soora\Desktop\test\awesome-project\node_modules\core-js\internals\wrap-error-constructor-with-cause.js:37:62)
+    at new Error (C:\Users\soora\Desktop\test\awesome-project\node_modules\core-js\modules\es.error.cause.js:28:43)
+    at new MongooseError (C:\Users\soora\Desktop\test\awesome-project\node_modules\mongoose\lib\error\mongooseError.js:7:1)
+    at new ValidationError (C:\Users\soora\Desktop\test\awesome-project\node_modules\mongoose\lib\error\validation.js:27:5)
+    at model.Document.invalidate (C:\Users\soora\Desktop\test\awesome-project\node_modules\mongoose\lib\document.js:2782:32)
+    at model.$set (C:\Users\soora\Desktop\test\awesome-project\node_modules\mongoose\lib\document.js:1349:12)
+    at model.$set (C:\Users\soora\Desktop\test\awesome-project\node_modules\mongoose\lib\document.js:1058:16)
+    at model.Document (C:\Users\soora\Desktop\test\awesome-project\node_modules\mongoose\lib\document.js:148:12)
+    at model.Model (C:\Users\soora\Desktop\test\awesome-project\node_modules\mongoose\lib\model.js:106:12)
+    at new model (C:\Users\soora\Desktop\test\awesome-project\node_modules\mongoose\lib\model.js:4911:15)
+    at C:\Users\soora\Desktop\test\awesome-project\node_modules\mongoose\lib\model.js:3157:22
+    at C:\Users\soora\Desktop\test\awesome-project\node_modules\mongoose\lib\model.js:3193:7
+    at Array.forEach (<anonymous>)
+    at C:\Users\soora\Desktop\test\awesome-project\node_modules\mongoose\lib\model.js:3192:15
+    at C:\Users\soora\Desktop\test\awesome-project\node_modules\mongoose\lib\helpers\promiseOrCallback.js:32:5
+    at new Promise (<anonymous>) 
+    url - /api/v1/users/student 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-09-16T07:19:26.668Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-16T07:20:15.264Z"}
+info: Connected to the database. {"timestamp":"2022-09-16T07:20:15.306Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-16T07:21:59.633Z"}
+info: Connected to the database. {"timestamp":"2022-09-16T07:21:59.672Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-16T07:22:13.088Z"}
+info: Connected to the database. {"timestamp":"2022-09-16T07:22:13.131Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-16T07:36:26.808Z"}
+info: Connected to the database. {"timestamp":"2022-09-16T07:36:26.868Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-16T07:36:40.577Z"}
+info: Connected to the database. {"timestamp":"2022-09-16T07:36:40.620Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-16T08:01:11.965Z"}
+info: Connected to the database. {"timestamp":"2022-09-16T08:01:12.012Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-16T08:05:56.971Z"}
+info: Connected to the database. {"timestamp":"2022-09-16T08:05:57.043Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-16T08:13:22.208Z"}
+info: Connected to the database. {"timestamp":"2022-09-16T08:13:22.251Z"}
+error: 
+    status - 500 
+    message - Error: Malformed part header
+    at Error.<anonymous> (C:\Users\soora\Desktop\test\awesome-project\node_modules\core-js\internals\wrap-error-constructor-with-cause.js:37:62)
+    at new Error (C:\Users\soora\Desktop\test\awesome-project\node_modules\core-js\modules\es.error.cause.js:28:43)
+    at SBMH.ssCb [as _cb] (C:\Users\soora\Desktop\test\awesome-project\node_modules\busboy\lib\types\multipart.js:398:32)
+    at feed (C:\Users\soora\Desktop\test\awesome-project\node_modules\streamsearch\lib\sbmh.js:219:14)
+    at SBMH.push (C:\Users\soora\Desktop\test\awesome-project\node_modules\streamsearch\lib\sbmh.js:104:16)
+    at Multipart._write (C:\Users\soora\Desktop\test\awesome-project\node_modules\busboy\lib\types\multipart.js:567:19)
+    at writeOrBuffer (internal/streams/writable.js:358:12)
+    at Multipart.Writable.write (internal/streams/writable.js:303:10)
+    at IncomingMessage.ondata (internal/streams/readable.js:719:22)
+    at IncomingMessage.emit (events.js:315:20)
+    at IncomingMessage.EventEmitter.emit (domain.js:467:12)
+    at IncomingMessage.Readable.read (internal/streams/readable.js:519:10)
+    at flow (internal/streams/readable.js:992:34)
+    at resume_ (internal/streams/readable.js:973:3)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21) 
+    url - /api/v1/users/student 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-09-16T08:17:36.772Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-16T08:23:18.002Z"}
+info: Connected to the database. {"timestamp":"2022-09-16T08:23:18.046Z"}
+error: 
+    status - 500 
+    message - Error: Malformed part header
+    at Error.<anonymous> (C:\Users\soora\Desktop\test\awesome-project\node_modules\core-js\internals\wrap-error-constructor-with-cause.js:37:62)
+    at new Error (C:\Users\soora\Desktop\test\awesome-project\node_modules\core-js\modules\es.error.cause.js:28:43)
+    at SBMH.ssCb [as _cb] (C:\Users\soora\Desktop\test\awesome-project\node_modules\busboy\lib\types\multipart.js:398:32)
+    at feed (C:\Users\soora\Desktop\test\awesome-project\node_modules\streamsearch\lib\sbmh.js:219:14)
+    at SBMH.push (C:\Users\soora\Desktop\test\awesome-project\node_modules\streamsearch\lib\sbmh.js:104:16)
+    at Multipart._write (C:\Users\soora\Desktop\test\awesome-project\node_modules\busboy\lib\types\multipart.js:567:19)
+    at writeOrBuffer (internal/streams/writable.js:358:12)
+    at Multipart.Writable.write (internal/streams/writable.js:303:10)
+    at IncomingMessage.ondata (internal/streams/readable.js:719:22)
+    at IncomingMessage.emit (events.js:315:20)
+    at IncomingMessage.EventEmitter.emit (domain.js:467:12)
+    at IncomingMessage.Readable.read (internal/streams/readable.js:519:10)
+    at flow (internal/streams/readable.js:992:34)
+    at resume_ (internal/streams/readable.js:973:3)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21) 
+    url - /api/v1/users/student 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-09-16T08:23:24.166Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-16T10:02:41.622Z"}
+info: Connected to the database. {"timestamp":"2022-09-16T10:02:41.649Z"}
+error: 
+    status - 500 
+    message - Error: Malformed part header
+    at Error.<anonymous> (C:\Users\soora\Desktop\test\awesome-project\node_modules\core-js\internals\wrap-error-constructor-with-cause.js:37:62)
+    at new Error (C:\Users\soora\Desktop\test\awesome-project\node_modules\core-js\modules\es.error.cause.js:28:43)
+    at SBMH.ssCb [as _cb] (C:\Users\soora\Desktop\test\awesome-project\node_modules\busboy\lib\types\multipart.js:398:32)
+    at feed (C:\Users\soora\Desktop\test\awesome-project\node_modules\streamsearch\lib\sbmh.js:219:14)
+    at SBMH.push (C:\Users\soora\Desktop\test\awesome-project\node_modules\streamsearch\lib\sbmh.js:104:16)
+    at Multipart._write (C:\Users\soora\Desktop\test\awesome-project\node_modules\busboy\lib\types\multipart.js:567:19)
+    at writeOrBuffer (internal/streams/writable.js:358:12)
+    at Multipart.Writable.write (internal/streams/writable.js:303:10)
+    at IncomingMessage.ondata (internal/streams/readable.js:719:22)
+    at IncomingMessage.emit (events.js:315:20)
+    at IncomingMessage.EventEmitter.emit (domain.js:467:12)
+    at IncomingMessage.Readable.read (internal/streams/readable.js:519:10)
+    at flow (internal/streams/readable.js:992:34)
+    at resume_ (internal/streams/readable.js:973:3)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21) 
+    url - /api/v1/users/student 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-09-16T10:03:07.836Z"}
+error: 
+    status - 500 
+    message - Error: ENOENT: no such file or directory, open 'C:\Users\soora\Desktop\test\awesome-project\uplode\imagePath-1663322744180.jpg' 
+    url - /api/v1/users/student 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-09-16T10:05:44.202Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-16T10:14:40.802Z"}
+info: Connected to the database. {"timestamp":"2022-09-16T10:14:40.831Z"}
+error: 
+    status - 500 
+    message - Error: ENOENT: no such file or directory, open 'C:\Users\soora\Desktop\test\awesome-project\uplode\imagePath1663323285702.jpg' 
+    url - /api/v1/users/student 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-09-16T10:14:45.706Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-16T10:14:58.573Z"}
+info: Connected to the database. {"timestamp":"2022-09-16T10:14:58.594Z"}
+error: 
+    status - 500 
+    message - Error: ENOENT: no such file or directory, open 'C:\Users\soora\Desktop\test\awesome-project\uplode\imagePath1663323302253.jpg' 
+    url - /api/v1/users/student 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-09-16T10:15:02.257Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-16T10:15:26.861Z"}
+info: Connected to the database. {"timestamp":"2022-09-16T10:15:26.888Z"}
+error: 
+    status - 500 
+    message - Error: ENOENT: no such file or directory, open 'C:\uplode\imagePath1663323330008.jpg' 
+    url - /api/v1/users/student 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-09-16T10:15:30.012Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-16T10:49:10.530Z"}
+info: Connected to the database. {"timestamp":"2022-09-16T10:49:10.559Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-16T10:51:13.149Z"}
+info: Connected to the database. {"timestamp":"2022-09-16T10:51:13.171Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-16T10:51:16.379Z"}
+info: Connected to the database. {"timestamp":"2022-09-16T10:51:16.409Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-16T10:51:21.936Z"}
+info: Connected to the database. {"timestamp":"2022-09-16T10:51:21.963Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-19T10:00:40.147Z"}
+info: Connected to the database. {"timestamp":"2022-09-19T10:00:40.192Z"}
+error: 
+    status - 500 
+    message - Error: ENOENT: no such file or directory, open 'C:\Users\soora\Desktop\test\awesome-project\uplode\ignoring online 2.jpg' 
+    url - /api/v1/users/student 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-09-19T10:03:23.638Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-19T10:14:35.976Z"}
+info: Connected to the database. {"timestamp":"2022-09-19T10:14:36.027Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-19T10:15:16.222Z"}
+info: Connected to the database. {"timestamp":"2022-09-19T10:15:16.265Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-20T13:27:45.889Z"}
+info: Connected to the database. {"timestamp":"2022-09-20T13:27:45.910Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-20T13:30:04.449Z"}
+info: Connected to the database. {"timestamp":"2022-09-20T13:30:04.470Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-20T13:31:59.837Z"}
+info: Connected to the database. {"timestamp":"2022-09-20T13:31:59.860Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-20T13:39:42.581Z"}
+info: Connected to the database. {"timestamp":"2022-09-20T13:39:42.606Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-22T12:09:12.636Z"}
+info: Connected to the database. {"timestamp":"2022-09-22T12:09:12.682Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-22T12:29:00.370Z"}
+info: Connected to the database. {"timestamp":"2022-09-22T12:29:00.391Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read property 'path' of undefined
+    at _callee$ (C:\Users\soora\Desktop\test\awesome-project\src\controllers\/user.controller.js:14:26)
+    at tryCatch (C:\Users\soora\Desktop\test\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\soora\Desktop\test\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\soora\Desktop\test\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\soora\Desktop\test\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\soora\Desktop\test\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\soora\Desktop\test\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\Users\soora\Desktop\test\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at newUser (C:\Users\soora\Desktop\test\awesome-project\src\controllers\/user.controller.js:5:21)
+    at Layer.handle [as handle_request] (C:\Users\soora\Desktop\test\awesome-project\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\soora\Desktop\test\awesome-project\node_modules\express\lib\router\route.js:144:13)
+    at multerMiddleware (C:\Users\soora\Desktop\test\awesome-project\node_modules\multer\lib\make-middleware.js:13:41)
+    at Layer.handle [as handle_request] (C:\Users\soora\Desktop\test\awesome-project\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\soora\Desktop\test\awesome-project\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\soora\Desktop\test\awesome-project\node_modules\express\lib\router\route.js:114:3) 
+    url - /api/v1/users/student 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-09-22T14:38:57.594Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-22T15:07:14.773Z"}
+info: Connected to the database. {"timestamp":"2022-09-22T15:07:14.822Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-22T15:09:22.828Z"}
+info: Connected to the database. {"timestamp":"2022-09-22T15:09:22.875Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read property 'filename' of undefined
+    at _callee$ (C:\Users\soora\Desktop\test\awesome-project\src\controllers\/user.controller.js:14:68)
+    at tryCatch (C:\Users\soora\Desktop\test\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\soora\Desktop\test\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\soora\Desktop\test\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\soora\Desktop\test\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\soora\Desktop\test\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\soora\Desktop\test\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\Users\soora\Desktop\test\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at newUser (C:\Users\soora\Desktop\test\awesome-project\src\controllers\/user.controller.js:5:21)
+    at Layer.handle [as handle_request] (C:\Users\soora\Desktop\test\awesome-project\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\soora\Desktop\test\awesome-project\node_modules\express\lib\router\route.js:144:13)
+    at multerMiddleware (C:\Users\soora\Desktop\test\awesome-project\node_modules\multer\lib\make-middleware.js:13:41)
+    at Layer.handle [as handle_request] (C:\Users\soora\Desktop\test\awesome-project\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\soora\Desktop\test\awesome-project\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\soora\Desktop\test\awesome-project\node_modules\express\lib\router\route.js:114:3) 
+    url - /api/v1/users/student 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-09-22T15:24:27.282Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-22T16:04:43.929Z"}
+info: Connected to the database. {"timestamp":"2022-09-22T16:04:43.952Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read property 'filename' of undefined
+    at _callee$ (C:\Users\soora\Desktop\test\awesome-project\src\controllers\/user.controller.js:14:68)
+    at tryCatch (C:\Users\soora\Desktop\test\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\soora\Desktop\test\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\soora\Desktop\test\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\soora\Desktop\test\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\soora\Desktop\test\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\soora\Desktop\test\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\Users\soora\Desktop\test\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at newUser (C:\Users\soora\Desktop\test\awesome-project\src\controllers\/user.controller.js:5:21)
+    at Layer.handle [as handle_request] (C:\Users\soora\Desktop\test\awesome-project\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\soora\Desktop\test\awesome-project\node_modules\express\lib\router\route.js:144:13)
+    at multerMiddleware (C:\Users\soora\Desktop\test\awesome-project\node_modules\multer\lib\make-middleware.js:13:41)
+    at Layer.handle [as handle_request] (C:\Users\soora\Desktop\test\awesome-project\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\soora\Desktop\test\awesome-project\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\soora\Desktop\test\awesome-project\node_modules\express\lib\router\route.js:114:3) 
+    url - /api/v1/users/student 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-09-22T16:04:56.027Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-22T16:05:28.140Z"}
+info: Connected to the database. {"timestamp":"2022-09-22T16:05:28.160Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read property 'path' of undefined
+    at _callee$ (C:\Users\soora\Desktop\test\awesome-project\src\controllers\/user.controller.js:14:68)
+    at tryCatch (C:\Users\soora\Desktop\test\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\soora\Desktop\test\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\soora\Desktop\test\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\soora\Desktop\test\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\soora\Desktop\test\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\soora\Desktop\test\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\Users\soora\Desktop\test\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at newUser (C:\Users\soora\Desktop\test\awesome-project\src\controllers\/user.controller.js:5:21)
+    at Layer.handle [as handle_request] (C:\Users\soora\Desktop\test\awesome-project\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\soora\Desktop\test\awesome-project\node_modules\express\lib\router\route.js:144:13)
+    at multerMiddleware (C:\Users\soora\Desktop\test\awesome-project\node_modules\multer\lib\make-middleware.js:13:41)
+    at Layer.handle [as handle_request] (C:\Users\soora\Desktop\test\awesome-project\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\soora\Desktop\test\awesome-project\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\soora\Desktop\test\awesome-project\node_modules\express\lib\router\route.js:114:3) 
+    url - /api/v1/users/student 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-09-22T16:05:58.143Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-23T02:52:18.158Z"}
+info: Connected to the database. {"timestamp":"2022-09-23T02:52:18.198Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read property 'path' of undefined
+    at _callee$ (C:\Users\soora\Desktop\test\awesome-project\src\controllers\/user.controller.js:14:68)
+    at tryCatch (C:\Users\soora\Desktop\test\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\soora\Desktop\test\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\soora\Desktop\test\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\soora\Desktop\test\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\soora\Desktop\test\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\soora\Desktop\test\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\Users\soora\Desktop\test\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at newUser (C:\Users\soora\Desktop\test\awesome-project\src\controllers\/user.controller.js:5:21)
+    at Layer.handle [as handle_request] (C:\Users\soora\Desktop\test\awesome-project\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\soora\Desktop\test\awesome-project\node_modules\express\lib\router\route.js:144:13)
+    at multerMiddleware (C:\Users\soora\Desktop\test\awesome-project\node_modules\multer\lib\make-middleware.js:13:41)
+    at Layer.handle [as handle_request] (C:\Users\soora\Desktop\test\awesome-project\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\soora\Desktop\test\awesome-project\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\soora\Desktop\test\awesome-project\node_modules\express\lib\router\route.js:114:3) 
+    url - /api/v1/users/student 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-09-23T03:19:11.995Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-23T03:20:24.770Z"}
+info: Connected to the database. {"timestamp":"2022-09-23T03:20:24.817Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-23T10:20:44.878Z"}
+info: Connected to the database. {"timestamp":"2022-09-23T10:20:44.938Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read property 'filename' of undefined
+    at _callee$ (C:\Users\soora\Desktop\test\awesome-project\src\controllers\/user.controller.js:14:68)
+    at tryCatch (C:\Users\soora\Desktop\test\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\soora\Desktop\test\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\soora\Desktop\test\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\soora\Desktop\test\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\soora\Desktop\test\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\soora\Desktop\test\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\Users\soora\Desktop\test\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at newUser (C:\Users\soora\Desktop\test\awesome-project\src\controllers\/user.controller.js:5:21)
+    at Layer.handle [as handle_request] (C:\Users\soora\Desktop\test\awesome-project\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\soora\Desktop\test\awesome-project\node_modules\express\lib\router\route.js:144:13)
+    at multerMiddleware (C:\Users\soora\Desktop\test\awesome-project\node_modules\multer\lib\make-middleware.js:13:41)
+    at Layer.handle [as handle_request] (C:\Users\soora\Desktop\test\awesome-project\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\soora\Desktop\test\awesome-project\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\soora\Desktop\test\awesome-project\node_modules\express\lib\router\route.js:114:3) 
+    url - /api/v1/users/student 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-09-23T10:21:33.429Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-24T05:18:22.094Z"}
+info: Connected to the database. {"timestamp":"2022-09-24T05:18:22.160Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read property 'filename' of undefined
+    at _callee$ (C:\Users\soora\Desktop\test\awesome-project\src\controllers\/user.controller.js:14:68)
+    at tryCatch (C:\Users\soora\Desktop\test\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\soora\Desktop\test\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\soora\Desktop\test\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\soora\Desktop\test\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\soora\Desktop\test\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\soora\Desktop\test\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\Users\soora\Desktop\test\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at newUser (C:\Users\soora\Desktop\test\awesome-project\src\controllers\/user.controller.js:5:21)
+    at Layer.handle [as handle_request] (C:\Users\soora\Desktop\test\awesome-project\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\soora\Desktop\test\awesome-project\node_modules\express\lib\router\route.js:144:13)
+    at done (C:\Users\soora\Desktop\test\awesome-project\node_modules\multer\lib\make-middleware.js:45:7)
+    at indicateDone (C:\Users\soora\Desktop\test\awesome-project\node_modules\multer\lib\make-middleware.js:49:68)
+    at Multipart.<anonymous> (C:\Users\soora\Desktop\test\awesome-project\node_modules\multer\lib\make-middleware.js:166:7)
+    at Multipart.emit (events.js:315:20) 
+    url - /api/v1/users/student 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-09-24T05:23:45.619Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read property 'filename' of undefined
+    at _callee$ (C:\Users\soora\Desktop\test\awesome-project\src\controllers\/user.controller.js:14:68)
+    at tryCatch (C:\Users\soora\Desktop\test\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\soora\Desktop\test\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\soora\Desktop\test\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\soora\Desktop\test\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\soora\Desktop\test\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\soora\Desktop\test\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\Users\soora\Desktop\test\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at newUser (C:\Users\soora\Desktop\test\awesome-project\src\controllers\/user.controller.js:5:21)
+    at Layer.handle [as handle_request] (C:\Users\soora\Desktop\test\awesome-project\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\soora\Desktop\test\awesome-project\node_modules\express\lib\router\route.js:144:13)
+    at done (C:\Users\soora\Desktop\test\awesome-project\node_modules\multer\lib\make-middleware.js:45:7)
+    at indicateDone (C:\Users\soora\Desktop\test\awesome-project\node_modules\multer\lib\make-middleware.js:49:68)
+    at Multipart.<anonymous> (C:\Users\soora\Desktop\test\awesome-project\node_modules\multer\lib\make-middleware.js:166:7)
+    at Multipart.emit (events.js:315:20) 
+    url - /api/v1/users/student 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-09-24T05:30:39.047Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-24T05:33:08.039Z"}
+info: Connected to the database. {"timestamp":"2022-09-24T05:33:08.075Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read property 'path' of undefined
+    at _callee$ (C:\Users\soora\Desktop\test\awesome-project\src\controllers\/user.controller.js:18:68)
+    at tryCatch (C:\Users\soora\Desktop\test\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\soora\Desktop\test\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\soora\Desktop\test\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\soora\Desktop\test\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\soora\Desktop\test\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\soora\Desktop\test\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\Users\soora\Desktop\test\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at newUser (C:\Users\soora\Desktop\test\awesome-project\src\controllers\/user.controller.js:9:21)
+    at Layer.handle [as handle_request] (C:\Users\soora\Desktop\test\awesome-project\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\soora\Desktop\test\awesome-project\node_modules\express\lib\router\route.js:144:13)
+    at done (C:\Users\soora\Desktop\test\awesome-project\node_modules\multer\lib\make-middleware.js:45:7)
+    at indicateDone (C:\Users\soora\Desktop\test\awesome-project\node_modules\multer\lib\make-middleware.js:49:68)
+    at Multipart.<anonymous> (C:\Users\soora\Desktop\test\awesome-project\node_modules\multer\lib\make-middleware.js:166:7)
+    at Multipart.emit (events.js:315:20) 
+    url - /api/v1/users/student 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-09-24T05:33:50.022Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read property 'path' of undefined
+    at _callee$ (C:\Users\soora\Desktop\test\awesome-project\src\controllers\/user.controller.js:18:68)
+    at tryCatch (C:\Users\soora\Desktop\test\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\soora\Desktop\test\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\soora\Desktop\test\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\soora\Desktop\test\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\soora\Desktop\test\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\soora\Desktop\test\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\Users\soora\Desktop\test\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at newUser (C:\Users\soora\Desktop\test\awesome-project\src\controllers\/user.controller.js:9:21)
+    at Layer.handle [as handle_request] (C:\Users\soora\Desktop\test\awesome-project\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\soora\Desktop\test\awesome-project\node_modules\express\lib\router\route.js:144:13)
+    at done (C:\Users\soora\Desktop\test\awesome-project\node_modules\multer\lib\make-middleware.js:45:7)
+    at indicateDone (C:\Users\soora\Desktop\test\awesome-project\node_modules\multer\lib\make-middleware.js:49:68)
+    at Multipart.<anonymous> (C:\Users\soora\Desktop\test\awesome-project\node_modules\multer\lib\make-middleware.js:166:7)
+    at Multipart.emit (events.js:315:20) 
+    url - /api/v1/users/student 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-09-24T05:58:03.603Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-24T06:17:30.145Z"}
+info: Connected to the database. {"timestamp":"2022-09-24T06:17:30.214Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read property 'path' of undefined
+    at _callee$ (C:\Users\soora\Desktop\test\awesome-project\src\controllers\/user.controller.js:18:68)
+    at tryCatch (C:\Users\soora\Desktop\test\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\soora\Desktop\test\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\soora\Desktop\test\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\soora\Desktop\test\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\soora\Desktop\test\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\soora\Desktop\test\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\Users\soora\Desktop\test\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at newUser (C:\Users\soora\Desktop\test\awesome-project\src\controllers\/user.controller.js:9:21)
+    at Layer.handle [as handle_request] (C:\Users\soora\Desktop\test\awesome-project\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\soora\Desktop\test\awesome-project\node_modules\express\lib\router\route.js:144:13)
+    at done (C:\Users\soora\Desktop\test\awesome-project\node_modules\multer\lib\make-middleware.js:45:7)
+    at indicateDone (C:\Users\soora\Desktop\test\awesome-project\node_modules\multer\lib\make-middleware.js:49:68)
+    at Multipart.<anonymous> (C:\Users\soora\Desktop\test\awesome-project\node_modules\multer\lib\make-middleware.js:166:7)
+    at Multipart.emit (events.js:315:20) 
+    url - /api/v1/users/student 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-09-24T06:17:42.297Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-24T06:19:31.418Z"}
+info: Connected to the database. {"timestamp":"2022-09-24T06:19:31.460Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read property 'originalname' of undefined
+    at _callee$ (C:\Users\soora\Desktop\test\awesome-project\src\controllers\/user.controller.js:18:68)
+    at tryCatch (C:\Users\soora\Desktop\test\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\soora\Desktop\test\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\soora\Desktop\test\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\soora\Desktop\test\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\soora\Desktop\test\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\soora\Desktop\test\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\Users\soora\Desktop\test\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at newUser (C:\Users\soora\Desktop\test\awesome-project\src\controllers\/user.controller.js:9:21)
+    at Layer.handle [as handle_request] (C:\Users\soora\Desktop\test\awesome-project\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\soora\Desktop\test\awesome-project\node_modules\express\lib\router\route.js:144:13)
+    at done (C:\Users\soora\Desktop\test\awesome-project\node_modules\multer\lib\make-middleware.js:45:7)
+    at indicateDone (C:\Users\soora\Desktop\test\awesome-project\node_modules\multer\lib\make-middleware.js:49:68)
+    at Multipart.<anonymous> (C:\Users\soora\Desktop\test\awesome-project\node_modules\multer\lib\make-middleware.js:166:7)
+    at Multipart.emit (events.js:315:20) 
+    url - /api/v1/users/student 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-09-24T06:19:42.921Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-24T06:20:17.691Z"}
+info: Connected to the database. {"timestamp":"2022-09-24T06:20:17.755Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-24T06:23:07.471Z"}
+info: Connected to the database. {"timestamp":"2022-09-24T06:23:07.506Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read property 'ACCEPTED' of undefined
+    at _callee$ (C:\Users\soora\Desktop\test\awesome-project\src\controllers\/user.controller.js:18:68)
+    at tryCatch (C:\Users\soora\Desktop\test\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\soora\Desktop\test\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\soora\Desktop\test\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\soora\Desktop\test\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\soora\Desktop\test\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\soora\Desktop\test\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\Users\soora\Desktop\test\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at newUser (C:\Users\soora\Desktop\test\awesome-project\src\controllers\/user.controller.js:9:21)
+    at Layer.handle [as handle_request] (C:\Users\soora\Desktop\test\awesome-project\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\soora\Desktop\test\awesome-project\node_modules\express\lib\router\route.js:144:13)
+    at done (C:\Users\soora\Desktop\test\awesome-project\node_modules\multer\lib\make-middleware.js:45:7)
+    at indicateDone (C:\Users\soora\Desktop\test\awesome-project\node_modules\multer\lib\make-middleware.js:49:68)
+    at Multipart.<anonymous> (C:\Users\soora\Desktop\test\awesome-project\node_modules\multer\lib\make-middleware.js:166:7)
+    at Multipart.emit (events.js:315:20) 
+    url - /api/v1/users/student 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-09-24T06:24:10.555Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-24T06:25:17.717Z"}
+info: Connected to the database. {"timestamp":"2022-09-24T06:25:17.753Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-24T09:36:42.586Z"}
+info: Connected to the database. {"timestamp":"2022-09-24T09:36:42.629Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read property 'path' of undefined
+    at _callee$ (C:\Users\soora\Desktop\test\awesome-project\src\controllers\/user.controller.js:18:68)
+    at tryCatch (C:\Users\soora\Desktop\test\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\soora\Desktop\test\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\soora\Desktop\test\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\soora\Desktop\test\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\soora\Desktop\test\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\soora\Desktop\test\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\Users\soora\Desktop\test\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at newUser (C:\Users\soora\Desktop\test\awesome-project\src\controllers\/user.controller.js:9:21)
+    at Layer.handle [as handle_request] (C:\Users\soora\Desktop\test\awesome-project\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\soora\Desktop\test\awesome-project\node_modules\express\lib\router\route.js:144:13)
+    at done (C:\Users\soora\Desktop\test\awesome-project\node_modules\multer\lib\make-middleware.js:45:7)
+    at indicateDone (C:\Users\soora\Desktop\test\awesome-project\node_modules\multer\lib\make-middleware.js:49:68)
+    at Multipart.<anonymous> (C:\Users\soora\Desktop\test\awesome-project\node_modules\multer\lib\make-middleware.js:166:7)
+    at Multipart.emit (events.js:315:20) 
+    url - /api/v1/users/student 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-09-24T09:37:07.589Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-24T09:37:53.815Z"}
+info: Connected to the database. {"timestamp":"2022-09-24T09:37:53.853Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-24T09:38:02.763Z"}
+info: Connected to the database. {"timestamp":"2022-09-24T09:38:02.844Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-24T09:38:12.498Z"}
+info: Connected to the database. {"timestamp":"2022-09-24T09:38:12.541Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-24T09:40:18.189Z"}
+info: Connected to the database. {"timestamp":"2022-09-24T09:40:18.227Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-24T12:26:59.653Z"}
+info: Connected to the database. {"timestamp":"2022-09-24T12:26:59.707Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-25T06:40:10.359Z"}
+info: Connected to the database. {"timestamp":"2022-09-25T06:40:10.422Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-25T07:08:59.531Z"}
+info: Connected to the database. {"timestamp":"2022-09-25T07:08:59.560Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-26T03:22:58.808Z"}
+info: Connected to the database. {"timestamp":"2022-09-26T03:22:58.946Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-09-27T07:11:33.162Z"}
+info: Connected to the database. {"timestamp":"2022-09-27T07:11:33.212Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-10-05T17:43:25.510Z"}
+info: Connected to the database. {"timestamp":"2022-10-05T17:43:25.591Z"}
+error: 
+    status - 500 
+    message - Error: "dob" must be a valid email 
+    url - /api/v1/people 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-10-05T17:46:52.168Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-10-05T17:47:39.262Z"}
+info: Connected to the database. {"timestamp":"2022-10-05T17:47:39.297Z"}
+error: 
+    status - 500 
+    message - ReferenceError: UserService is not defined
+    at _callee$ (C:\Users\soora\Desktop\Basic_project_nodejs\awesome-project\src\controllers\/assi.controller.js:3:24)
+    at tryCatch (C:\Users\soora\Desktop\Basic_project_nodejs\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\soora\Desktop\Basic_project_nodejs\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\soora\Desktop\Basic_project_nodejs\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\soora\Desktop\Basic_project_nodejs\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\soora\Desktop\Basic_project_nodejs\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\soora\Desktop\Basic_project_nodejs\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\Users\soora\Desktop\Basic_project_nodejs\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at newUser (C:\Users\soora\Desktop\Basic_project_nodejs\awesome-project\src\controllers\/assi.controller.js:3:21)
+    at Layer.handle [as handle_request] (C:\Users\soora\Desktop\Basic_project_nodejs\awesome-project\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\soora\Desktop\Basic_project_nodejs\awesome-project\node_modules\express\lib\router\route.js:144:13)
+    at newPeopleValidator (C:\Users\soora\Desktop\Basic_project_nodejs\awesome-project\src\validators\/assin.validator.js:16:5)
+    at Layer.handle [as handle_request] (C:\Users\soora\Desktop\Basic_project_nodejs\awesome-project\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\soora\Desktop\Basic_project_nodejs\awesome-project\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\soora\Desktop\Basic_project_nodejs\awesome-project\node_modules\express\lib\router\route.js:114:3) 
+    url - /api/v1/people 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-10-05T17:47:44.189Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-10-05T17:50:29.811Z"}
+info: Connected to the database. {"timestamp":"2022-10-05T17:50:29.859Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-10-05T18:39:03.408Z"}
+info: Connected to the database. {"timestamp":"2022-10-05T18:39:03.469Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-10-05T18:40:07.637Z"}
+info: Connected to the database. {"timestamp":"2022-10-05T18:40:07.696Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-10-05T18:40:58.196Z"}
+info: Connected to the database. {"timestamp":"2022-10-05T18:40:58.249Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-10-05T18:41:11.096Z"}
+info: Connected to the database. {"timestamp":"2022-10-05T18:41:11.150Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-10-05T18:42:00.175Z"}
+info: Connected to the database. {"timestamp":"2022-10-05T18:42:00.248Z"}
+error: 
+    status - 500 
+    message - ReferenceError: UserService is not defined
+    at _callee3$ (C:\Users\soora\Desktop\Basic_project_nodejs\awesome-project\src\controllers\/assi.controller.js:30:31)
+    at tryCatch (C:\Users\soora\Desktop\Basic_project_nodejs\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\soora\Desktop\Basic_project_nodejs\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\soora\Desktop\Basic_project_nodejs\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\soora\Desktop\Basic_project_nodejs\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\soora\Desktop\Basic_project_nodejs\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\soora\Desktop\Basic_project_nodejs\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\Users\soora\Desktop\Basic_project_nodejs\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at updatePeople (C:\Users\soora\Desktop\Basic_project_nodejs\awesome-project\src\controllers\/assi.controller.js:30:28)
+    at Layer.handle [as handle_request] (C:\Users\soora\Desktop\Basic_project_nodejs\awesome-project\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\soora\Desktop\Basic_project_nodejs\awesome-project\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\soora\Desktop\Basic_project_nodejs\awesome-project\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\soora\Desktop\Basic_project_nodejs\awesome-project\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\soora\Desktop\Basic_project_nodejs\awesome-project\node_modules\express\lib\router\index.js:284:15
+    at param (C:\Users\soora\Desktop\Basic_project_nodejs\awesome-project\node_modules\express\lib\router\index.js:365:14) 
+    url - /api/v1/people/633dcd3f2f2d602438cdaab5 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-10-05T18:42:34.959Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-10-05T18:43:10.699Z"}
+info: Connected to the database. {"timestamp":"2022-10-05T18:43:10.746Z"}
+error: 
+    status - 500 
+    message - Error: Cast to undefined failed for value undefined at path "undefined"
+    at CastError.<anonymous> (C:\Users\soora\Desktop\Basic_project_nodejs\awesome-project\node_modules\core-js\internals\wrap-error-constructor-with-cause.js:37:62)
+    at new Error (C:\Users\soora\Desktop\Basic_project_nodejs\awesome-project\node_modules\core-js\modules\es.error.cause.js:28:43)
+    at new MongooseError (C:\Users\soora\Desktop\Basic_project_nodejs\awesome-project\node_modules\mongoose\lib\error\mongooseError.js:7:1)
+    at new CastError (C:\Users\soora\Desktop\Basic_project_nodejs\awesome-project\node_modules\mongoose\lib\error\cast.js:31:7)
+    at model.Query.exec (C:\Users\soora\Desktop\Basic_project_nodejs\awesome-project\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (C:\Users\soora\Desktop\Basic_project_nodejs\awesome-project\node_modules\mongoose\lib\query.js:4592:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5) 
+    url - /api/v1/people/undefined 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-10-06T03:27:00.936Z"}
